@@ -1,0 +1,26 @@
+/* Extra css file for additional features */
+/* Copyright (c) 2023 Yilin Fang. */
+
+table.fleximgtable{
+	border: none;
+}
+
+table.fleximgtable tr {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center
+}
+
+table.fleximgtable td {
+	border: none;
+	display: flex;
+	flex: auto;
+}
+
+table.fleximgtable img {
+	margin: auto;
+}
+
+table.fleximgtable p {
+	text-align: left;
+}
