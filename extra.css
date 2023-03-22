@@ -13,7 +13,6 @@ table.fleximgtable tr {
 
 table.fleximgtable td {
 	border: none;
-	display: flex;
 	flex: auto;
 }
 
