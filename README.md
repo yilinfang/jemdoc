@@ -5,6 +5,7 @@ This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshi
 
 Additional Feature:
 - dynamic image table with flex
+- text highlight
 
 README of the original jemdoc+MathJax
 ---

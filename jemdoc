@@ -753,7 +753,12 @@ def br(b, f, tableblock=False):
   r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
   b = re.sub(r, r'<u>\1</u>', b)
   b = mathjaxusresub(b)
- 
+
+  # Deal with ^highlight^.
+  r = re.compile(r'(?<!\\)\^(.*?)(?<!\\)\^', re.M + re.S)
+  b = re.sub(r, r'<hl>\1</hl>', b)
+  b = mathjaxusresub(b)
+
   # Deal with +monospace+.
   r = re.compile(r'(?<!\\)\+(.*?)(?<!\\)\+', re.M + re.S)
   b = re.sub(r, r'<tt>\1</tt>', b)
