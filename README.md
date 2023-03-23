@@ -3,9 +3,11 @@ jemdoc+MathJax
 
 This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshin/jemdoc_mathjax) for my personal [personal website](https://yilinfang.github.io) use.
 
-Additional Feature:
+Additional Features:
 - dynamic image table with flex
 - text highlight
+
+Please refer to the example in the `test/` directory for usage.
 
 README of the original jemdoc+MathJax
 ---
