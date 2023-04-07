@@ -754,9 +754,14 @@ def br(b, f, tableblock=False):
   b = re.sub(r, r'<u>\1</u>', b)
   b = mathjaxusresub(b)
 
-  # Deal with ^highlight^.
-  r = re.compile(r'(?<!\\)\^(.*?)(?<!\\)\^', re.M + re.S)
+  # Deal with !highlight!.
+  r = re.compile(r'(?<!\\)\!(.*?)(?<!\\)\!', re.M + re.S)
   b = re.sub(r, r'<hl>\1</hl>', b)
+  b = mathjaxusresub(b)
+
+    # Deal with ^superscript^.
+  r = re.compile(r'(?<!\\)\^(.*?)(?<!\\)\^', re.M + re.S)
+  b = re.sub(r, r'<sup>\1</sup>', b)
   b = mathjaxusresub(b)
 
   # Deal with +monospace+.
@@ -808,7 +813,7 @@ def br(b, f, tableblock=False):
 
   # Deal with middot \LC.
   r = re.compile(r"(?<!\\)\\LC", re.M + re.S)
-  b = re.sub(r, r'&#10013;', b)
+  b = re.sub(r, r'<sup>&#10013;</sup>', b)
 
   # Deal with line break.
   r = re.compile(r"(?<!\\)\\n", re.M + re.S)

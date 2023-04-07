@@ -6,7 +6,8 @@ This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshi
 Additional Features:
 - dynamic image table with flex
 - text highlight
-- latin cross(✝)
+- latin cross
+- superscript text 
 
 Please refer to the example in the `test/` directory for usage.
 
