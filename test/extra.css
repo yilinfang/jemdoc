@@ -27,3 +27,7 @@ table.fleximgtable p {
 hl {
 	color: red;
 }
+
+.underline {
+	text-decoration: underline;
+}

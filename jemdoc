@@ -751,7 +751,7 @@ def br(b, f, tableblock=False):
  
   # Deal with _underscore_.
   r = re.compile(r'(?<!\\)_(.*?)(?<!\\)_', re.M + re.S)
-  b = re.sub(r, r'<u>\1</u>', b)
+  b = re.sub(r, r'<span class=\"underline\">\1</span>', b)
   b = mathjaxusresub(b)
 
   # Deal with !highlight!.
