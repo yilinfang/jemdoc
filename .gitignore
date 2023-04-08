@@ -1,14 +1,1 @@
-*.pyc
-otherstuff
-proctags.py
-*.swp
-tags.vim
-tags
-matlab
-build
-MANIFEST
-jo
-*.html
-stage/
-
 .DS_Store

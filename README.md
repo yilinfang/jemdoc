@@ -1,7 +1,7 @@
 jemdoc+MathJax
 ==============
 
-This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshin/jemdoc_mathjax) for my personal [personal website](https://yilinfang.github.io) use.
+This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshin/jemdoc_mathjax) for my [personal website](https://yilinfang.github.io) use.
 
 Additional Features:
 - dynamic image table with flex

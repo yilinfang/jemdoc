@@ -1,6 +1,6 @@
 # jemdoc: nomemu, notime
 = Extra Features
-Please refer to the source file for usage.
+Please refer to the [extra_features.jemdoc source file] for usage.
 == Dynamic Image Table with Flex
 
 ~~~
