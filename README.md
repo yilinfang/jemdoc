@@ -9,7 +9,7 @@ Additional Features:
 - latin cross
 - superscript text 
 
-Please refer to the example in the `test/` directory for usage.
+Please refer to [example page](test/extra_features.html) in the `test/` directory for usage.
 
 README of the original jemdoc+MathJax
 ---
