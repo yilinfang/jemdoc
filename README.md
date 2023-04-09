@@ -6,10 +6,10 @@ This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshi
 Additional Features:
 - dynamic image table with flex
 - text highlight
-- latin cross
+- dagger
 - superscript text 
 
-Please refer to [example page](test/extra_features.html) in the `test/` directory for usage.
+Please refer to examples ([source file](test/extra_features.jemdoc), [output page](test/extra_features.html)) in the `test/` directory for usage.
 
 README of the original jemdoc+MathJax
 ---
