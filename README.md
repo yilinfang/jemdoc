@@ -1,4 +1,4 @@
-jemdoc+MathJax
+jemdoc
 ==============
 
 This is a personal modified version of [jemdoc+MathJax](https://github.com/wsshin/jemdoc_mathjax) for my [personal website](https://yilinfang.github.io) use.
